@@ -1,0 +1,102 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #1B4F72;
+}
+
+.botao-comprar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+  margin-top: 20px; /* Add some margin at the top */
+  
+}
+
+.botao-comprar button {
+  padding: 10px 15px;
+  background-color: grey;
+  color: #fff;
+  font-size: 12px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+  
+}
+
+.ootao-comprar button:hover {
+  background-color: #0056b3;
+}
+.botao-reserva button {
+  padding: 10px 15px;
+  background-color: grey;
+  color: #fff;
+  font-size: 12px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+  margin-left: 3em;
+
+
+}
+
+.botao-reserva button:hover {
+  background-color: #0056b3;
+}
+
+
+.attractions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 15px;
+  margin-top: 40px;
+  gap: 50px;
+}
+
+.attraction {
+  width: 15%;
+  padding: 20px;
+  margin: 20px 0;
+  background-color: #f0f0f0;
+  border-radius: 11px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.attraction img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+h1 {
+  color: white;
+  font-size: 23px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 100;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: -810px;
+}
+
+h2 {
+  font-weight: 100;
+  margin-top: 5px;
+  margin-left: 5px;
+  text-align: center;
+}
+
+p {
+  font-weight: 100;
+  margin-top:8px;
+  margin-left: 13px;
+  text-align: center;
+  color: grey;
+}
